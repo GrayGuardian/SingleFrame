@@ -7,5 +7,6 @@ public class Main : MonoBehaviour
     {
         var mono = MonoUtil.Instance;
         // AudioUtil.Instance.Play(AssetCode.ClickClip, (info) => { print("播放完毕"); }, true);
+
     }
 }

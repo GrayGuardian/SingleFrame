@@ -8,7 +8,7 @@ public class AniTestComp : AniBase
     {
         base.Awake();
 
-        AddAnimationEvent("ani1", "aaa", (clip) => { return clip.length - 0.5f; });
+        AddAnimationEvent("idle", "aaa", (clip) => { return clip.length; });
         // RemoveAnimationEvent("ani1", "aaa");
     }
     public void aaa()
